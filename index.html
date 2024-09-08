@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Amine Portfolio</title>
+    <script src="https://kit.fontawesome.com/d051aa8913.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#works">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="hedear-text">
+                <p>Web/App Developer</p>
+                <h1>Hi, I'm <span>Amine Bakiz</span> <br>Software Engineer</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/amine.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify;">
+                        Amine Bakiz, a passionate and skilled software engineer,I dedicated years to mastering the art of web and desktop application development.My journey began with self-taught programming, and i quickly evolved into a proficient coder. Amine’s GitHub profile showcases my commitment to writing clean, efficient code and managing version control.My expertise extends to both front-end and back-end technologies, making a versatile developer. As the tech landscape continues to evolve, ready to tackle new challenges and create impactful solutions </p>
+                    <div class="tab-titiles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>Back-end developement </li>
+                            <li><span>Web Developement</span><br>Front-end developement </li>
+                            <li><span>App Developement</span><br>Building Desktop apps </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Web Developer, IDEMIA Morocco</li>
+                            <li><span>2023</span><br>Web Developer, Ministry of the Interior </li>
+                            <li><span>2022</span><br>Web Developer, INTELLCAP </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024</span><br>Moroccan School of Engineering Sciences </li>
+                            <li><span>2019-2021</span><br>Specialized Institute of Applied Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-code-pull-request"></i>
+                    <h2>Front-end Developement</h2>
+                    <p style="text-align: justify;">
+                        As an Angular developer, I specialize in building dynamic, scalable, and high-performance web applications. With a strong foundation in front-end development, I excel in creating modular and reusable components, ensuring seamless user experiences.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Back-end Developement</h2>
+                    <p style="text-align: justify;">
+                        As a back-end developer specializing in Spring Boot, I focus on building powerful, scalable, and efficient server-side applications. My expertise in Spring Boot allows me to create robust APIs, manage complex data flows, and ensure seamless communication between different parts of the system. With a deep understanding of Java and Spring's ecosystem, I design and implement solutions that are both secure and high-performing, making you an essential contributor to any backend project.</p>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Desktop app Developement</h2>
+                    <p style="text-align: justify;">
+                        As a developer experienced in building desktop applications with Java Swing and JavaFX, I excel in creating interactive and visually appealing user interfaces. My proficiency in Java Swing allows me to design traditional, robust desktop applications, while my expertise in JavaFX lets my craft modern, dynamic UIs with advanced graphical features.</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Ecommerce App</h3>
+                        
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png" >
+                    <div class="layer">
+                        <h3>Booking App</h3>
+                        
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work.png" >
+                    <div class="layer">
+                        <h3>Hospital App</h3>
+                        
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bakiz*****@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>0639******</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="https://sheetdb.io/api/v1/batmebkh8ciz6" method="post" id="sheetdb-form">
+                        <input type="text" name="data[name]" placeholder="Your Name" required>
+                        <input type="email" name="data[email]" placeholder="Your Email" required>
+                        <textarea name="data[message]"  rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright © Bakiz Amine</div>
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>    
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    var form = document.getElementById('sheetdb-form');
+    form.addEventListener("submit",e =>{
+        e.preventDefault();
+        fetch(form.action, {
+            method : "POST",
+            body: new FormData(document.getElementById("sheetdb-form")),
+        }).then(
+            response =>response.json()
+        ).then((html) =>{
+            alert("your message is send!! Thnak You!!")
+            form.reset();
+
+        });
+    });
+</script>
+</body>
+</html>
